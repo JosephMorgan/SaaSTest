@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="蜂盒科技SaaS平台自动化测试">
+	<test name="SaaS--登录页" preserve-order="true">
+		<classes>
+			<class name="com.beeboxes.face.login.testcase.TestLogin">
+				<methods>
+					<include name="testLogin" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+</suite>
