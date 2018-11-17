@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<activity name="登录页面">
+		<element name="登录账号">
+			<name><![CDATA[uname]]></name>
+		</element>
+		<element name="账号密码">
+			<name><![CDATA[pass]]></name>
+		</element>
+		<element name="登录平台">
+			<xpath><![CDATA[/html/body/div/div[1]/div[2]/div/div[4]/form/div[4]/div/button]]></xpath>
+		</element>
+	</activity>
+	<activity name="首页左侧栏">
+		<element name="大的设备管理">
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[3]/div/span]]></xpath>
+		</element>
+		<element name="小的设备管理">
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[3]/ul/a[1]/li]]></xpath>
+		</element>
+	</activity>
+	<activity name="设备管理页面">
+		<element name="sn号搜索框">
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[2]/div[2]/div/div/div[1]/form/div[2]/div/div/input]]></xpath>
+		</element>
+		<element name="搜索按钮">
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[2]/div[2]/div/div/div[1]/form/div[7]/div/button]]></xpath>
+		</element>
+		<element name="重启按钮">
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[2]/div[2]/div/div/div[3]/button[3]]]></xpath>
+		</element>
+				<element name="第一个勾选框">
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[2]/div[2]/div/div/div[5]/div/div[3]/table/tbody/tr/td[1]/div/label/span/span]]></xpath>
+		</element>
+	</activity>
+</root>

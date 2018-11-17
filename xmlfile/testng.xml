@@ -7,6 +7,7 @@
 			<class name="com.beeboxes.face.login.testcase.TestLogin">
 				<methods>
 					<include name="testLogin" />
+					<include name="testDeviceReboot" />
 				</methods>
 			</class>
 		</classes>
