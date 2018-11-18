@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="8,058.735" tests="501" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="17.228" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk1.8.0_31\jre\bin"/>
-    <property name="java.vm.version" value="25.31-b07"/>
+    <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk1.8.0_25\jre\bin"/>
+    <property name="java.vm.version" value="25.25-b02"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="E:\DB\eclipse\workspace\SaaSTest"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Program Files\eclipse\workspace\SaaSTest"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,46 +16,46 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.os.patch.level" value="Service Pack 1"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="E:\DB\eclipse\workspace\SaaSTest"/>
-    <property name="java.runtime.version" value="1.8.0_31-b13"/>
+    <property name="user.dir" value="D:\Program Files\eclipse\workspace\SaaSTest"/>
+    <property name="java.runtime.version" value="1.8.0_25-b18"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="java.endorsed.dirs" value="D:\Program Files\Java\jdk1.8.0_31\jre\lib\endorsed"/>
+    <property name="java.endorsed.dirs" value="D:\Program Files\Java\jdk1.8.0_25\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="java.io.tmpdir" value="C:\Users\bin\AppData\Local\Temp\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="E:\DB\apache-maven-3.5.2\bin\..\bin\m2.conf"/>
+    <property name="classworlds.conf" value="D:\apache-maven-3.5.0\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="D:\Program Files\Java\jdk1.8.0_31\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;F:\1-DB\cmder\bin;F:\1-DB\cmder\vendor\conemu-maximus5\ConEmu\Scripts;F:\1-DB\cmder\vendor\conemu-maximus5;F:\1-DB\cmder\vendor\conemu-maximus5\ConEmu;D:\Program Files\Java\jdk1.8.0_31\bin;D:\Program Files\Java\jdk1.8.0_31\jre\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\NetSarang;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\Help\1.3.4.2;C:\Windows\Help\1.3.4.2\;D:\Debugging Tools for Windows (x64)\;C:\Python34;C:\Program Files\TortoiseSVN\bin;C:\Program Files\EmEditor;E:\android-sdk-windows\platform-tools;F:\1-DB\cmder;D:\apache-jmeter-4.0\bin;C:\Program Files (x86)\Appium\node_modules\.bin;C:\Program Files\nodejs\;E:\DB\apache-maven-3.5.2\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Appium\node_modules\.bin;C:\Users\Administrator\AppData\Roaming\npm;C:\Program Files\Git\mingw64;C:\Program Files\Git\usr\bin;."/>
-    <property name="maven.conf" value="E:\DB\apache-maven-3.5.2\bin\../conf"/>
+    <property name="java.library.path" value="D:\Program Files\Java\jdk1.8.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\software\cmder\bin;E:\software\cmder\vendor\conemu-maximus5\ConEmu\Scripts;E:\software\cmder\vendor\conemu-maximus5;E:\software\cmder\vendor\conemu-maximus5\ConEmu;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Program Files\Java\jdk1.8.0_25\bin;D:\Python27;D:\Python27\Scripts;D:\SVN\TortoiseSVN\bin;D:\Tesseract-OCR;D:\Program Files\VisualSVN Server\bin;C:\Program Files\nodejs\;D:\android-sdk-windows\platform-tools;D:\android-sdk-windows\tools;C:\Program Files (x86)\Appium\node_modules\.bin\;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;D:\apache-ant-1.9.6\bin;D:\apache-maven-3.5.0\bin;D:\Git\cmd;D:\JMeter\apache-jmeter-3.1\bin;D:\android-sdk-windows\platform-tools;E:\software\cmder;D:\scala-2.12.1\bin;C:\Users\bin\AppData\Roaming\npm;C:\Users\bin\AppData\Local\Programs\Fiddler;D:\Git\mingw64;D:\Git\usr\bin;."/>
+    <property name="maven.conf" value="D:\apache-maven-3.5.0\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="6.1"/>
-    <property name="library.jansi.path" value="E:\DB\apache-maven-3.5.2\bin\..\lib\jansi-native"/>
-    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="library.jansi.path" value="D:\apache-maven-3.5.0\bin\..\lib\jansi-native\windows64"/>
+    <property name="user.home" value="C:\Users\bin"/>
     <property name="user.timezone" value="Asia/Shanghai"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="GBK"/>
-    <property name="user.name" value="Administrator"/>
-    <property name="java.class.path" value="E:\DB\apache-maven-3.5.2\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="user.name" value="bin"/>
+    <property name="java.class.path" value="D:\apache-maven-3.5.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="java.home" value="D:\Program Files\Java\jdk1.8.0_31\jre"/>
+    <property name="java.home" value="D:\Program Files\Java\jdk1.8.0_25\jre"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="zh"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
-    <property name="java.version" value="1.8.0_31"/>
-    <property name="java.ext.dirs" value="D:\Program Files\Java\jdk1.8.0_31\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
-    <property name="sun.boot.class.path" value="D:\Program Files\Java\jdk1.8.0_31\jre\lib\resources.jar;D:\Program Files\Java\jdk1.8.0_31\jre\lib\rt.jar;D:\Program Files\Java\jdk1.8.0_31\jre\lib\sunrsasign.jar;D:\Program Files\Java\jdk1.8.0_31\jre\lib\jsse.jar;D:\Program Files\Java\jdk1.8.0_31\jre\lib\jce.jar;D:\Program Files\Java\jdk1.8.0_31\jre\lib\charsets.jar;D:\Program Files\Java\jdk1.8.0_31\jre\lib\jfr.jar;D:\Program Files\Java\jdk1.8.0_31\jre\classes"/>
+    <property name="java.version" value="1.8.0_25"/>
+    <property name="java.ext.dirs" value="D:\Program Files\Java\jdk1.8.0_25\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="D:\Program Files\Java\jdk1.8.0_25\jre\lib\resources.jar;D:\Program Files\Java\jdk1.8.0_25\jre\lib\rt.jar;D:\Program Files\Java\jdk1.8.0_25\jre\lib\sunrsasign.jar;D:\Program Files\Java\jdk1.8.0_25\jre\lib\jsse.jar;D:\Program Files\Java\jdk1.8.0_25\jre\lib\jce.jar;D:\Program Files\Java\jdk1.8.0_25\jre\lib\charsets.jar;D:\Program Files\Java\jdk1.8.0_25\jre\lib\jfr.jar;D:\Program Files\Java\jdk1.8.0_25\jre\classes"/>
     <property name="sun.stderr.encoding" value="ms936"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="E:\DB\apache-maven-3.5.2\bin\.."/>
+    <property name="maven.home" value="D:\apache-maven-3.5.0\bin\.."/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -64,505 +64,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testLogin" classname="com.beeboxes.face.login.testcase.TestLogin" time="2.146"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.742"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.598"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.616"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.55"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.567"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.649"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.602"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.614"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.586"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.669"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.665"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.618"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.716"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.617"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.642"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.64"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.62"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.647"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.6"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.533"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.584"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.617"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.567"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.607"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.595"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.531"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.603"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.617"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.615"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.601"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.598"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.619"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.616"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.65"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.618"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.597"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.62"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.567"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.615"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.585"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.615"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.601"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.602"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.598"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.584"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.667"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.6"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.683"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.633"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.62"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.581"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.585"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.599"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.584"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.629"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.604"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.567"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.617"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.601"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.599"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.584"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.584"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.617"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.6"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.6"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.616"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.583"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.634"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.55"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.617"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.582"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.618"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.649"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.618"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.551"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.653"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.646"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.586"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.599"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.584"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.617"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.685"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.633"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.582"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.584"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.649"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.583"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.6"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.583"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.633"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.569"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.684"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.599"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.584"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.634"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.6"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.666"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.599"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.702"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.667"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.615"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.602"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.699"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.634"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.7"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.634"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.619"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.764"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.584"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.617"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.633"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.635"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.649"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.618"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.582"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.633"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.621"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.63"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.601"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.613"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.602"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.549"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.668"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.578"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.59"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.599"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.585"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.599"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.565"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.602"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.599"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.583"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.586"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.583"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.615"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.62"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.582"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.583"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.568"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.619"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.596"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.602"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.583"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.585"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.63"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.636"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.614"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.584"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.602"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.601"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.565"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.633"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.552"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.628"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.571"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.632"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.619"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.566"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.55"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.584"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.55"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.601"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.584"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.599"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.649"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.602"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.567"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.583"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.593"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.637"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.587"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.6"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.569"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.581"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.561"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.558"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.599"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.585"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.635"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.614"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.566"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.587"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.582"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.585"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.563"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.534"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.552"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.616"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.55"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.619"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.565"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.573"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.645"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.633"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.588"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.528"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.55"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.57"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.547"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.603"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.602"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.632"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.567"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.566"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.617"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.618"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.615"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.618"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.6"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.6"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.601"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.599"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.601"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.565"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.602"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.735"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.631"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.585"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.616"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.585"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.616"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.616"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.583"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.599"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.586"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.619"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.632"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.565"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.583"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.619"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.634"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.532"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.618"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.584"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.581"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.583"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.566"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.602"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.568"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.581"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.567"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.667"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.634"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.616"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.618"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.582"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.585"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.635"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.597"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.601"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.621"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.614"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.617"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.602"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.615"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.601"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.599"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.584"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.6"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.601"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.569"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.616"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.581"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.621"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.563"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.617"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.586"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.632"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.619"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.582"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.583"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.6"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.617"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.602"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.614"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.569"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.633"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.584"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.583"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.565"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.602"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.616"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.6"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.614"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.573"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.682"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.626"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.574"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.6"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.568"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.599"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.585"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.581"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.663"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.571"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.584"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.602"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.6"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.565"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.602"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.649"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.634"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.55"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.551"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.6"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.583"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.585"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.616"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.633"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.635"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.601"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.665"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.564"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.586"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.6"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.583"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.619"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.581"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="10.567"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="20.539"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.679"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.616"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.619"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.709"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.69"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.616"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.653"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.652"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.678"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.634"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.696"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.663"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.668"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.719"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.653"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.68"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.664"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.729"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.724"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.661"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.634"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.658"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.644"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.707"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.634"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.639"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.692"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.656"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.705"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.734"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.631"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.655"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.707"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.679"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.68"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.641"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.666"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.66"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.675"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.659"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.774"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.697"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.73"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.698"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.633"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.637"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.626"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.75"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.697"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.648"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.683"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.65"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.662"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.651"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.663"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.733"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.752"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.802"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.702"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.792"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.775"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.681"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.687"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.678"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.703"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.634"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.671"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.724"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.826"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.661"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.661"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.767"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.697"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.75"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.659"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.752"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.76"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.627"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.743"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.718"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.747"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.739"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.65"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.726"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.745"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.791"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.695"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.771"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.909"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.789"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.673"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.742"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.793"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.749"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.871"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.747"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.654"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.676"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.745"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.717"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.743"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.709"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.766"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.787"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.758"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.772"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.796"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.775"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.741"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.786"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.737"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.748"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.779"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.699"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.81"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.818"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.732"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.662"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.764"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.762"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.743"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.776"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.699"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.761"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.739"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.747"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.785"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.791"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.842"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.773"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.73"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.818"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.78"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.757"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.759"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.761"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.764"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.833"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.876"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.884"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.828"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.829"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.748"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.741"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.761"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.726"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.78"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.787"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.844"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.818"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.793"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.808"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.813"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.818"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.824"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.792"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.831"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.861"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.901"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.836"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.792"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.775"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.798"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.87"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.787"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.771"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.815"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.874"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.848"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.903"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.847"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.93"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.824"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.869"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.859"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.861"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.811"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.788"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.896"/>
-  <testcase name="testDeviceReboot" classname="com.beeboxes.face.login.testcase.TestLogin" time="25.847"/>
+  <testcase name="testLogin" classname="com.beeboxes.face.main.testcase.TestMain" time="0.983"/>
+  <testcase name="testMain" classname="com.beeboxes.face.main.testcase.TestMain" time="5.727"/>
 </testsuite>

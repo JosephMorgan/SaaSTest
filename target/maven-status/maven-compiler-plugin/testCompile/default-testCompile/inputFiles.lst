@@ -1,8 +1,11 @@
-E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\base\OperateConfig.java
-E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\base\Screenshot.java
-E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\base\InitializeSelenium.java
-E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\page\PageLogin.java
-E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\base\Wait.java
-E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\SaaSTest\AppTest.java
-E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\base\ReadXml.java
-E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\login\testcase\TestLogin.java
+D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\base\Screenshot.java
+D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\base\Wait.java
+D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\base\ReadXml.java
+D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\base\OperateConfig.java
+D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\page\PageMain.java
+D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\main\testcase\TestMain.java
+D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\login\testcase\TestLogin.java
+D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\page\PageLogin.java
+D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\base\InitializeSelenium.java
+D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\base\JSExecutor.java
+D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\SaaSTest\AppTest.java
