@@ -4,10 +4,10 @@
 <suite name="蜂盒科技SaaS平台自动化测试">
 	<test name="SaaS--主页" preserve-order="true">
 		<classes>
-			<class name="com.beeboxes.face.main.testcase.TestMain">
+			<class name="com.beeboxes.face.people.testcase.TestPeopleManagement">
 				<methods>
-				    <include name="testLogin" />
-					<include name="testMain" />
+				    <include name="getPeopleManagement" />
+					<include name="batchAddingStaff" />
 				</methods>
 			</class>
 		</classes>

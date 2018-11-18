@@ -7,6 +7,12 @@ import org.openqa.selenium.support.PageFactory;
 import com.beeboxes.face.base.JSExecutor;
 import com.beeboxes.face.base.ReadXml;
 
+/**
+ * Description: SaaS平台-主页-元素
+ * @author dengbin
+ * @date 2018年11月18日
+ * @time 下午10:44:04
+ */
 public class PageMain {
 	public WebDriver driver;
 	public PageMain(WebDriver driver) {

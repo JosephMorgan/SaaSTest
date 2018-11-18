@@ -28,12 +28,10 @@
 			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[1]/ul/a[3]/li]]></xpath>
 		</element>
 		<element name="大的人员管理">
-			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[2]/div/span]]>
-			</xpath>
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[2]/div/span]]></xpath>
 		</element>
 		<element name="小的人员管理">
-			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[2]/ul/a/li]]>
-			</xpath>
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[2]/ul/a/li]]></xpath>
 		</element>
 		<element name="大的设备管理">
 			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[3]/div/span]]></xpath>
@@ -42,68 +40,57 @@
 			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[3]/ul/a[1]/li]]></xpath>
 		</element>
 		<element name="设备分组">
-			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[3]/ul/a[2]/li]]>
-			</xpath>
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[3]/ul/a[2]/li]]></xpath>
 		</element>
 		<element name="管理员">
-			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[3]/ul/a[3]/li]]>
-			</xpath>
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[3]/ul/a[3]/li]]></xpath>
 		</element>
 		<element name="配置管理">
-			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[3]/ul/a[4]/li]]>
-			</xpath>
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[3]/ul/a[4]/li]]></xpath>
 		</element>
 		<element name="命令下发记录">
-			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[3]/ul/a[5]/li]]>
-			</xpath>
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[3]/ul/a[5]/li]]></xpath>
 		</element>
 		<element name="权限管理">
-			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[4]/div/span]]>
-			</xpath>
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[4]/div/span]]></xpath>
 		</element>
 		<element name="角色管理">
-			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[4]/ul/a[1]/li]]>
-			</xpath>
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[4]/ul/a[1]/li]]></xpath>
 		</element>
 		<element name="权限分配">
-			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[4]/ul/a[2]/li]]>
-			</xpath>
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[4]/ul/a[2]/li]]></xpath>
 		</element>
 		<element name="数据管理">
-			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[5]/div/span]]>
-			</xpath>
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[5]/div/span]]></xpath>
 		</element>
 		<element name="通行记录">
-			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[5]/ul/a/li]]>
-			</xpath>
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[5]/ul/a/li]]></xpath>
 		</element>
 		<element name="业务管理">
-			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[6]/div/span]]>
-			</xpath>
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[6]/div/span]]></xpath>
 		</element>
 		<element name="通行规则">
-			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[6]/ul/a[1]/li]]>
-			</xpath>
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[6]/ul/a[1]/li]]></xpath>
 		</element>
 		<element name="规则下发">
-			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[6]/ul/a[2]/li]]>
-			</xpath>
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[6]/ul/a[2]/li]]></xpath>
 		</element>
 		<element name="应用管理">
-			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[7]/div/span]]>
-			</xpath>
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[7]/div/span]]></xpath>
 		</element>
 		<element name="微信授权">
-			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[7]/ul/a/li]]>
-			</xpath>
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[7]/ul/a/li]]></xpath>
 		</element>
 		<element name="系统管理">
-			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[8]/div/span]]>
-			</xpath>
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[8]/div/span]]></xpath>
 		</element>
 		<element name="组织架构">
-			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[8]/ul/a/li]]>
-			</xpath>
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[8]/ul/a/li]]></xpath>
+		</element>
+	</activity>
+	<activity name="人员管理页面">
+		<element name="批量导入按钮">
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[2]/div[2]/div/div/div[3]/button[5]]]></xpath>
 		</element>
 	</activity>
 	<activity name="设备管理页面">

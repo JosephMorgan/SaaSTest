@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="17.228" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="23.634" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk1.8.0_25\jre\bin"/>
@@ -64,6 +64,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testLogin" classname="com.beeboxes.face.main.testcase.TestMain" time="0.983"/>
-  <testcase name="testMain" classname="com.beeboxes.face.main.testcase.TestMain" time="5.727"/>
+  <testcase name="getPeopleManagement" classname="com.beeboxes.face.people.testcase.TestPeopleManagement" time="1.429"/>
+  <testcase name="batchAddingStaff" classname="com.beeboxes.face.people.testcase.TestPeopleManagement" time="5.115"/>
 </testsuite>
