@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SaaS--登录页"
-           tests="1"
+<testsuite name="SaaS--设备管理页"
+           tests="2"
            failures="0"
            errors="0"
            skipped="0"
-           time="1.670">
+           time="12.017">
   <properties />
   
   
-            <testcase name="testLogin" time="1.670" classname="com.beeboxes.face.login.testcase.TestLogin" />
+            <testcase name="testDeviceReboot" time="10.789" classname="com.beeboxes.face.login.testcase.TestLogin" />
+                <testcase name="testLogin" time="1.228" classname="com.beeboxes.face.login.testcase.TestLogin" />
       
 </testsuite>

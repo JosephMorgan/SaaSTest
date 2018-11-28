@@ -1,0 +1,5 @@
+com\beeboxes\face\page\PageMain.class
+com\beeboxes\face\base\JSExecutor.class
+com\beeboxes\face\main\testcase\TestMain.class
+com\beeboxes\face\people\testcase\TestPeopleManagement.class
+com\beeboxes\face\page\PagePeopleManagement.class

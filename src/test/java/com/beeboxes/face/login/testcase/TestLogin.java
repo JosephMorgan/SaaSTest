@@ -54,12 +54,12 @@ public class TestLogin {
 		loginPage.clickRememberAccount();
 		Reporter.log("步骤4：点登录平台");
 		loginPage.clickLoginBtn();
-		//driver.findElement(By.xpath(ReadXml.getElementByXpath("首页左侧栏", "大的设备管理"))).click();//设备管理
-		//driver.findElement(By.xpath(ReadXml.getElementByXpath("首页左侧栏", "小的设备管理"))).click();//设备管理	
+		driver.findElement(By.xpath(ReadXml.getElementByXpath("首页左侧栏", "大的设备管理"))).click();//设备管理
+		driver.findElement(By.xpath(ReadXml.getElementByXpath("首页左侧栏", "小的设备管理"))).click();//设备管理	
 		//Screenshot.snapshot((TakesScreenshot)driver, "设备管理.png");
 	}
 	
-	@Test(invocationCount=1,threadPoolSize=1,enabled=false)
+	@Test(invocationCount=50000,threadPoolSize=1)
 	public void testDeviceReboot() {
 		String sn1 = new OperateConfig().getProp("设备sn1");
 		//String sn2 = new OperateConfig().getProp("设备sn2");
@@ -73,18 +73,6 @@ public class TestLogin {
         Wait.sleep(5000);
 		
 		driver.findElement(By.xpath(ReadXml.getElementByXpath("设备管理页面", "第一个勾选框"))).click();//点勾选框
-		//driver.findElement(By.xpath(ReadXml.getElementByXpath("设备管理页面", "重启按钮"))).click();//点重启
-		
-//		Wait.sleep(5000);
-//	
-//		//又搜索一设备再重启
-//		driver.findElement(By.xpath(ReadXml.getElementByXpath("设备管理页面", "sn号搜索框"))).sendKeys(Keys.CONTROL + "a");
-//		driver.findElement(By.xpath(ReadXml.getElementByXpath("设备管理页面", "sn号搜索框"))).sendKeys(sn2);//输入sn
-//		driver.findElement(By.xpath(ReadXml.getElementByXpath("设备管理页面", "搜索按钮"))).click();//点搜索
-//		
-//		Wait.sleep(5000);
-//		
-//		driver.findElement(By.xpath(ReadXml.getElementByXpath("设备管理页面", "第一个勾选框"))).click();//点勾选框
-		//driver.findElement(By.xpath(ReadXml.getElementByXpath("设备管理页面", "重启按钮"))).click();//点重启	
+		driver.findElement(By.xpath(ReadXml.getElementByXpath("设备管理页面", "重启按钮"))).click();//点重启
 	}
 }

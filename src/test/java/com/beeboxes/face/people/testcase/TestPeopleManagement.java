@@ -1,15 +1,18 @@
 package com.beeboxes.face.people.testcase;
 
+import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.beeboxes.face.base.InitializeSelenium;
 import com.beeboxes.face.base.OperateConfig;
+import com.beeboxes.face.base.ReadCSV;
 import com.beeboxes.face.base.Wait;
 import com.beeboxes.face.page.PageLogin;
 import com.beeboxes.face.page.PageMain;
@@ -33,7 +36,7 @@ public class TestPeopleManagement {
 	
 	@AfterClass
 	public void tearDown() {
-		Wait.sleep(10000);
+		Wait.sleep(5000);
 		driver.quit();
 	}
 	
@@ -61,13 +64,44 @@ public class TestPeopleManagement {
         //Assert.assertEquals(driver.getTitle(), "蜂盒云平台2.0"); 
 	}
 	
-	@Test(description="批量添加人员",dependsOnMethods="getPeopleManagement")
-	public void  batchAddingStaff() {
+	@Test(description="批量添加人员",dependsOnMethods="getPeopleManagement",dataProvider="batchAddPeopleTemplate")
+	public void  batchAddingStaff(String excelPath,String imagePath) {
 		PagePeopleManagement peopleManagementPage = new PagePeopleManagement(driver);
 		
 		Wait.sleep(5000);
 		Reporter.log("步骤1：点批量导入按钮");
 		peopleManagementPage.clickBatchAddBtn();
+		Reporter.log("步骤2：导入人员的Excel表");
+		peopleManagementPage.clickImportExcel(excelPath);
+		Reporter.log("步骤3：导入人员的图片zip");
+		peopleManagementPage.clickImportImageZip(imagePath);
+		Reporter.log("步骤4：点下一步按钮");
+		peopleManagementPage.clickNextStepBtn();
+		Wait.sleep(4000);
+		Reporter.log("步骤5：点确定按钮");
+		peopleManagementPage.clickConfirmBtn();
+		Wait.sleep(8000);
+		Reporter.log("步骤6：点处理按钮");
+		peopleManagementPage.clickResolveBtn();
+		Wait.sleep(3000);
+		Reporter.log("步骤7：点导入按钮");
+		peopleManagementPage.clickImportBtn();
+		Wait.sleep(8000);
+		Reporter.log("步骤8：点完成按钮");
+		peopleManagementPage.clickCompleteBtn();
+			
 	}
 
+	@DataProvider(name="batchAddPeopleTemplate")	
+	public Object[][] providePeopleTemplate() {
+		String peopleDataFilePath = new OperateConfig().getProp("批量导入人员的文件路径");
+		ArrayList<String[]> dataArrayList = ReadCSV.readCSVFile(peopleDataFilePath);
+		int row = dataArrayList.size();
+		Object[][] peopleData = new Object[row][2];
+		for(int i = 0 ; i < row ; i++) {
+			peopleData[i][0] = dataArrayList.get(i)[0];
+			peopleData[i][1] = dataArrayList.get(i)[1];
+		}		
+		return peopleData;
+	}
 }
