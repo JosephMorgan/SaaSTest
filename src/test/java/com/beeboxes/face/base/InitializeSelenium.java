@@ -12,7 +12,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
  * @time 下午12:09:55
  */
 public class InitializeSelenium {
-	public  WebDriver driver;
+	public   WebDriver driver;
 	
 	/** 用chrome打开网页 */
 	public static WebDriver useChrome(WebDriver driver) {

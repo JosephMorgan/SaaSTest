@@ -10,6 +10,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import com.beeboxes.face.base.AssertContent;
 import com.beeboxes.face.base.InitializeSelenium;
 import com.beeboxes.face.base.OperateConfig;
 import com.beeboxes.face.base.ReadCSV;
@@ -24,6 +25,7 @@ import com.beeboxes.face.page.PagePeopleManagement;
  * @date 2018年11月18日
  * @time 下午10:29:51
  */
+
 public class TestPeopleManagement {
 	public WebDriver driver;
 
@@ -40,6 +42,7 @@ public class TestPeopleManagement {
 		driver.quit();
 	}
 	
+
 	@Test(description="进入人员管理页")
 	public void getPeopleManagement() {	
 		String username = new OperateConfig().getProp("登录账号");
@@ -55,13 +58,13 @@ public class TestPeopleManagement {
 		loginPage.clickRememberAccount();
 		Reporter.log("步骤4：点登录平台");
 		loginPage.clickLoginBtn();
+		Wait.sleep(2000);
+		AssertContent.assertByTitle(driver, "蜂盒云平台3.0", "登录失败");
 		Reporter.log("步骤5：点大的人员管理");
 		mainPage.clickPeopleManagement();
 		driver.switchTo().defaultContent(); 
 		Reporter.log("步骤6：点小的人员管理");
 		mainPage.clickPersonManagement();
-		//Wait.sleep(3000);
-        //Assert.assertEquals(driver.getTitle(), "蜂盒云平台2.0"); 
 	}
 	
 	@Test(description="批量添加人员",dependsOnMethods="getPeopleManagement",dataProvider="batchAddPeopleTemplate")

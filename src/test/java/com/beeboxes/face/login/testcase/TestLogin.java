@@ -59,7 +59,7 @@ public class TestLogin {
 		//Screenshot.snapshot((TakesScreenshot)driver, "设备管理.png");
 	}
 	
-	@Test(invocationCount=50000,threadPoolSize=1)
+	@Test(invocationCount=1,threadPoolSize=1)
 	public void testDeviceReboot() {
 		String sn1 = new OperateConfig().getProp("设备sn1");
 		//String sn2 = new OperateConfig().getProp("设备sn2");
@@ -73,6 +73,6 @@ public class TestLogin {
         Wait.sleep(5000);
 		
 		driver.findElement(By.xpath(ReadXml.getElementByXpath("设备管理页面", "第一个勾选框"))).click();//点勾选框
-		driver.findElement(By.xpath(ReadXml.getElementByXpath("设备管理页面", "重启按钮"))).click();//点重启
+		//driver.findElement(By.xpath(ReadXml.getElementByXpath("设备管理页面", "重启按钮"))).click();//点重启
 	}
 }
