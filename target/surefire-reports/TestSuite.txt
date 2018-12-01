@@ -1,6 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 2, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 24.101 sec <<< FAILURE! - in TestSuite
 getPeopleManagement(com.beeboxes.face.people.testcase.TestPeopleManagement)  Time elapsed: 13.331 sec  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
@@ -17,3 +18,6 @@ Session ID: 72e2126965ebd71295d4b93c0d440584
 *** Element info: {Using=xpath, value=/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[2]/div/span}
 	at com.beeboxes.face.people.testcase.TestPeopleManagement.getPeopleManagement(TestPeopleManagement.java:64)
 
+=======
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 77.37 sec - in TestSuite
+>>>>>>> 7d115be4e4d1c597a478fa28d56cc8dbeb1f1398
