@@ -1,19 +1,20 @@
 package com.beeboxes.face.people.testcase;
 
 import java.util.ArrayList;
-import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Reporter;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.beeboxes.face.base.AssertContent;
-import com.beeboxes.face.base.InitializeSelenium;
+import com.beeboxes.face.base.DotTestListener;
 import com.beeboxes.face.base.OperateConfig;
 import com.beeboxes.face.base.ReadCSV;
+import com.beeboxes.face.base.ReadXml;
+import com.beeboxes.face.base.TestBase;
 import com.beeboxes.face.base.Wait;
 import com.beeboxes.face.page.PageLogin;
 import com.beeboxes.face.page.PageMain;
@@ -25,31 +26,15 @@ import com.beeboxes.face.page.PagePeopleManagement;
  * @date 2018年11月18日
  * @time 下午10:29:51
  */
-
-public class TestPeopleManagement {
-	public WebDriver driver;
-
-	@BeforeClass
-	public void setUp() {
-		driver = InitializeSelenium.useChrome(driver);
-		driver.get(new OperateConfig().getProp("SaaS地址"));
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-	}
+@Listeners({ DotTestListener.class })
+public class TestPeopleManagement extends TestBase {
 	
-	@AfterClass
-	public void tearDown() {
-		Wait.sleep(5000);
-		driver.quit();
-	}
-	
-
-	@Test(description="进入人员管理页")
-	public void getPeopleManagement() {	
+	@Test(description="登录SaaS平台")
+	public void testLogin() {
 		String username = new OperateConfig().getProp("登录账号");
 		String password = new OperateConfig().getProp("登录密码");
 		PageLogin loginPage = new PageLogin(driver);
-		PageMain mainPage = new PageMain(driver);
-		
+	
 		Reporter.log("步骤1：输入正确用户名");
 		loginPage.inputUserName(username);
 		Reporter.log("步骤2：输入正确密码");
@@ -60,11 +45,21 @@ public class TestPeopleManagement {
 		loginPage.clickLoginBtn();
 		Wait.sleep(2000);
 		AssertContent.assertByTitle(driver, "蜂盒云平台2.0", "登录失败");
-		Reporter.log("步骤5：点大的人员管理");
+		
+	}
+	
+	@Test(description="进入人员管理页",invocationCount=100,threadPoolSize=1)
+	public void getPeopleManagement() {	
+		PageMain mainPage = new PageMain(driver);
+		Reporter.log("步骤1：点大的人员管理");
 		mainPage.clickPeopleManagement();
 		driver.switchTo().defaultContent(); 
-		Reporter.log("步骤6：点小的人员管理");
+		Reporter.log("步骤2：点小的人员管理");
 		mainPage.clickPersonManagement();
+		Wait.sleep(2000);
+		WebElement batchImportBtn = driver.findElement(By.xpath(ReadXml.getElementByXpath("人员管理页面", "批量导入按钮")));
+		AssertContent.assertByText(driver, batchImportBtn.getText(), "批量导入", "人员管理页打开失败");
+		
 	}
 	
 	@Test(description="批量添加人员",dependsOnMethods="getPeopleManagement",dataProvider="batchAddPeopleTemplate")

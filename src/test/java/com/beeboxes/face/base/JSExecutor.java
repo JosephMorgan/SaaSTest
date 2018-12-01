@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 /**
- * Description: SaaS平台-页-用例
+ * Description: js的操作
  * @author dengbin
  * @date 2018年11月18日
  * @time 下午6:09:58

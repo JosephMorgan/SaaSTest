@@ -1,19 +1,16 @@
 package com.beeboxes.face.login.testcase;
 
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-//import org.openqa.selenium.interactions.Actions;
 import org.testng.Reporter;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import com.beeboxes.face.base.InitializeSelenium;
+import com.beeboxes.face.base.AssertContent;
+import com.beeboxes.face.base.DotTestListener;
 import com.beeboxes.face.base.OperateConfig;
 import com.beeboxes.face.base.ReadXml;
+import com.beeboxes.face.base.TestBase;
 import com.beeboxes.face.base.Wait;
 import com.beeboxes.face.page.PageLogin;
 
@@ -23,21 +20,8 @@ import com.beeboxes.face.page.PageLogin;
  * @date 2018年11月13日
  * @time 下午2:58:14
  */
-public class TestLogin {
-	public WebDriver driver;
-
-	@BeforeClass
-	public void setUp() {
-		driver = InitializeSelenium.useChrome(driver);
-		driver.get(new OperateConfig().getProp("SaaS地址"));
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);// 全局最长等10秒
-	}
-	
-	@AfterClass
-	public void tearDown() {
-		Wait.sleep(5000);
-		driver.quit();
-	}
+@Listeners({ DotTestListener.class })
+public class TestLogin extends TestBase{
 
 	@Test(description="用正确账号登录")
 	public void testLogin() {	
@@ -49,14 +33,12 @@ public class TestLogin {
 		loginPage.inputUserName(username);
 		Reporter.log("步骤2：输入正确密码");
 		loginPage.inputPassword(password);
-		//new Actions(driver).sendKeys(Keys.ENTER).perform();
 		Reporter.log("步骤3：点记住账号和密码");
 		loginPage.clickRememberAccount();
 		Reporter.log("步骤4：点登录平台");
 		loginPage.clickLoginBtn();
-		driver.findElement(By.xpath(ReadXml.getElementByXpath("首页左侧栏", "大的设备管理"))).click();//设备管理
-		driver.findElement(By.xpath(ReadXml.getElementByXpath("首页左侧栏", "小的设备管理"))).click();//设备管理	
-		//Screenshot.snapshot((TakesScreenshot)driver, "设备管理.png");
+		Wait.sleep(2000);
+		AssertContent.assertByTitle(driver, "蜂盒云平台2.0", "登录失败");
 	}
 	
 	@Test(invocationCount=1,threadPoolSize=1)
@@ -64,14 +46,14 @@ public class TestLogin {
 		String sn1 = new OperateConfig().getProp("设备sn1");
 		//String sn2 = new OperateConfig().getProp("设备sn2");
 		//String sn3 = new OperateConfig().getProp("设备sn3");
-		
+		driver.findElement(By.xpath(ReadXml.getElementByXpath("首页左侧栏", "大的设备管理"))).click();
+		driver.findElement(By.xpath(ReadXml.getElementByXpath("首页左侧栏", "小的设备管理"))).click();
 		Wait.sleep(5000);		
 		driver.findElement(By.xpath(ReadXml.getElementByXpath("设备管理页面", "sn号搜索框"))).sendKeys(Keys.CONTROL + "a");
 		driver.findElement(By.xpath(ReadXml.getElementByXpath("设备管理页面", "sn号搜索框"))).sendKeys(sn1);//输入sn
 		driver.findElement(By.xpath(ReadXml.getElementByXpath("设备管理页面", "搜索按钮"))).click();//点搜索
 
-        Wait.sleep(5000);
-		
+        Wait.sleep(5000);	
 		driver.findElement(By.xpath(ReadXml.getElementByXpath("设备管理页面", "第一个勾选框"))).click();//点勾选框
 		//driver.findElement(By.xpath(ReadXml.getElementByXpath("设备管理页面", "重启按钮"))).click();//点重启
 	}

@@ -1,14 +1,16 @@
 D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\base\Screenshot.java
-D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\base\TestngRetryListener.java
 D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\base\Wait.java
 D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\base\ReadXml.java
+D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\base\DotTestListener.java
 D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\people\testcase\TestPeopleManagement.java
+D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\page\PageDeviceManagement.java
 D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\base\AssertContent.java
 D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\base\InitializeSelenium.java
 D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\SaaSTest\AppTest.java
 D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\base\ReadCSV.java
 D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\page\PagePeopleManagement.java
 D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\base\OperateConfig.java
+D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\base\TestBase.java
 D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\page\PageMain.java
 D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\main\testcase\TestMain.java
 D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\login\testcase\TestLogin.java
