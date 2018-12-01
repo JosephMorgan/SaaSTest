@@ -7,7 +7,7 @@
 			<class name="com.beeboxes.face.people.testcase.TestPeopleManagement">
 				<methods>
 				    <include name="getPeopleManagement" />
-					<include name="batchAddingStaff" />
+<!-- 					<include name="batchAddingStaff" /> -->
 				</methods>
 			</class>
 		</classes>

@@ -59,7 +59,7 @@ public class TestPeopleManagement {
 		Reporter.log("步骤4：点登录平台");
 		loginPage.clickLoginBtn();
 		Wait.sleep(2000);
-		AssertContent.assertByTitle(driver, "蜂盒云平台3.0", "登录失败");
+		AssertContent.assertByTitle(driver, "蜂盒云平台2.0", "登录失败");
 		Reporter.log("步骤5：点大的人员管理");
 		mainPage.clickPeopleManagement();
 		driver.switchTo().defaultContent(); 

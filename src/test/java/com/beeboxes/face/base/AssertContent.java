@@ -12,6 +12,7 @@ import org.testng.Reporter;
  * @time 下午10:29:19
  */
 public class AssertContent {
+	
 	/** 通过窗口标题来断言,断言失败就截图 */
 	public  static void assertByTitle (WebDriver driver,String title,String failPicName) {
 		
