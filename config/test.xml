@@ -121,7 +121,10 @@
     </element>  
     <element name="搜索按钮"> 
       <xpath><![CDATA[/html/body/div/div[1]/div/div/div[2]/div[2]/div/div/div[1]/form/div[7]/div/button]]></xpath> 
-    </element>  
+    </element> 
+        <element name="设备激活码按钮"> 
+      <xpath><![CDATA[/html/body/div/div[1]/div/div/div[2]/div[2]/div/div/div[3]/button[2]/span]]></xpath> 
+    </element>
     <element name="重启按钮"> 
       <xpath><![CDATA[/html/body/div/div[1]/div/div/div[2]/div[2]/div/div/div[3]/button[3]]]></xpath> 
     </element>  

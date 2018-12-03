@@ -27,7 +27,7 @@ public class TestBase {
 	
 	@AfterClass
 	public void tearDown() {
-		Wait.sleep(5000);
+		Wait.sleep(2000);
 		driver.quit();
 	}
 

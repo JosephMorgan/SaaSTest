@@ -26,14 +26,12 @@ public class AssertContent {
 	}
 	
 	/** 通过元素文本内容来断言,断言失败就截图 */
-	public  static void assertByText (WebDriver driver,String actualText,String expectedText,String failPicName) {
-		
-		try {
-			Assert.assertEquals(actualText, expectedText); 
-		} catch (AssertionError e) {
-			Reporter.log("断言失败了！在snapshot文件夹看--"+failPicName+"--图片文件。");
-			Screenshot.snapshot((TakesScreenshot)driver, failPicName);
-		}
-		
+	public  static void assertByText (WebDriver driver,String actualText,String expectedText,String failPicName) {		
+			try {
+				Assert.assertEquals(actualText, expectedText); 
+			} catch (AssertionError e) {
+				Reporter.log("断言失败了！在snapshot文件夹看--"+failPicName+"--图片文件。");
+				Screenshot.snapshot((TakesScreenshot)driver, failPicName);
+			}
 	}
 }

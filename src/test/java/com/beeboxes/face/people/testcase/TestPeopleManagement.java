@@ -48,7 +48,7 @@ public class TestPeopleManagement extends TestBase {
 		
 	}
 	
-	@Test(description="进入人员管理页",invocationCount=100,threadPoolSize=1)
+	@Test(description="进入人员管理页")
 	public void getPeopleManagement() {	
 		PageMain mainPage = new PageMain(driver);
 		Reporter.log("步骤1：点大的人员管理");
