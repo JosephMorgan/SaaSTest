@@ -3,8 +3,6 @@
 
 框架结构
 ```javascript
-文件夹 PATH 列表
-卷序列号为 3272-E9B2
 D:.
 ├─config
 ├─xmlfile
