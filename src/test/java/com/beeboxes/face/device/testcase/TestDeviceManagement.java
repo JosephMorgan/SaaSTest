@@ -4,19 +4,19 @@ import java.io.File;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import com.beeboxes.face.base.AssertContent;
-import com.beeboxes.face.base.DotTestListener;
-import com.beeboxes.face.base.OperateConfig;
-import com.beeboxes.face.base.ReadXml;
-import com.beeboxes.face.base.TestBase;
-import com.beeboxes.face.base.Wait;
 import com.beeboxes.face.page.PageDeviceManagement;
 import com.beeboxes.face.page.PageLogin;
 import com.beeboxes.face.page.PageMain;
+import com.beeboxes.face.util.DotTestListener;
+import com.beeboxes.face.util.OperateConfig;
+import com.beeboxes.face.util.ReadXml;
+import com.beeboxes.face.util.TestBase;
+import com.beeboxes.face.util.Wait;
 
 /**
  * Description: SaaS平台-设备管理页-用例
@@ -42,8 +42,7 @@ public class TestDeviceManagement extends TestBase {
 		Reporter.log("步骤4：点登录平台");
 		loginPage.clickLoginBtn();
 		Wait.sleep(2000);
-		AssertContent.assertByTitle(driver, "蜂盒云平台2.0", "登录失败");
-		
+		Assert.assertEquals(driver.getTitle(), "蜂盒云平台2.0");	
 	}
 	
 	@Test(description="进入设备管理页")
@@ -56,7 +55,7 @@ public class TestDeviceManagement extends TestBase {
 		mainPage.clickEquipmentManagement();
 		Wait.sleep(5000);
 		WebElement rebootDeviceBtn = driver.findElement(By.xpath(ReadXml.getElementByXpath("设备管理页面", "重启按钮")));
-		AssertContent.assertByText(driver, rebootDeviceBtn.getText(), "重启", "设备管理页打开失败");
+		Assert.assertEquals("重启", rebootDeviceBtn.getText());
 	}
 	
 	@Test(description="重启设备",invocationCount=300,threadPoolSize=1)
@@ -84,7 +83,9 @@ public class TestDeviceManagement extends TestBase {
 		pageDeviceManagement.clickActivationCodeBtn();
 		Wait.sleep(2000);
 		Reporter.log("步骤2：获取激活码");
-		new OperateConfig(filePath).setProp("激活码1", driver.findElement(By.xpath("/html/body/div[1]/div[1]/div/div/div[2]/div[2]/div/div/div[4]/div/div[2]/div[1]/span[2]")).getText());
+		WebElement activationCode = driver.findElement(By.xpath(ReadXml.getElementByXpath("设备管理页面", "激活码")));
+		Reporter.log("激活码："+activationCode.getText());
+		new OperateConfig(filePath).setProp("激活码1", activationCode.getText());
 		
 		
 	}

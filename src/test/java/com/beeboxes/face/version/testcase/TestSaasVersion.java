@@ -2,17 +2,17 @@ package com.beeboxes.face.version.testcase;
 
 import java.util.concurrent.TimeUnit;
 
+import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.alibaba.fastjson.JSONObject;
-import com.beeboxes.face.base.AssertContent;
-import com.beeboxes.face.base.DotTestListener;
-import com.beeboxes.face.base.InitializeSelenium;
-import com.beeboxes.face.base.OperateConfig;
-import com.beeboxes.face.base.TestBase;
+import com.beeboxes.face.util.DotTestListener;
+import com.beeboxes.face.util.InitializeSelenium;
+import com.beeboxes.face.util.OperateConfig;
+import com.beeboxes.face.util.TestBase;
 
 /**
  * Description: SaaS平台的版本
@@ -40,7 +40,7 @@ public class TestSaasVersion extends TestBase {
 		JSONObject jsonObj = JSONObject.parseObject(strJson);
 		String saasVersion = jsonObj.getString("saas_version");
 		Reporter.log("SaaS的版本："+saasVersion);
-		AssertContent.assertByText(driver, saasVersion, expextedSaasVersion, "SaaS的版本号不对");
+		Assert.assertEquals(saasVersion, expextedSaasVersion); 
 	}
 
 }

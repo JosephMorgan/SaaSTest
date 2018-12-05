@@ -1,11 +1,15 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.626 sec <<< FAILURE! - in TestSuite
-testSaasVersion(com.beeboxes.face.version.testcase.TestSaasVersion)  Time elapsed: 0.431 sec  <<< FAILURE!
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 44.362 sec <<< FAILURE! - in TestSuite
+testSaasVersion(com.beeboxes.face.version.testcase.TestSaasVersion)  Time elapsed: 0.447 sec  <<< FAILURE!
 java.lang.AssertionError: 
 expected [BFRS-2.0.65.111
 ] but found [BFRS-2.0.60.111
 ]
 	at com.beeboxes.face.version.testcase.TestSaasVersion.testSaasVersion(TestSaasVersion.java:43)
+
+testLogin(com.beeboxes.face.login.testcase.TestLogin)  Time elapsed: 3.404 sec  <<< FAILURE!
+java.lang.AssertionError: expected [蜂盒云平台3.0] but found [蜂盒云平台2.0]
+	at com.beeboxes.face.login.testcase.TestLogin.testLogin(TestLogin.java:39)
 

@@ -1,4 +1,4 @@
-package com.beeboxes.face.base;
+package com.beeboxes.face.util;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

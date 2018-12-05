@@ -1,4 +1,4 @@
-package com.beeboxes.face.base;
+package com.beeboxes.face.util;
 /**
  * Description: 页面等待
  * @author dengbin

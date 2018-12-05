@@ -9,16 +9,16 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import com.beeboxes.face.base.AssertContent;
-import com.beeboxes.face.base.DotTestListener;
-import com.beeboxes.face.base.OperateConfig;
-import com.beeboxes.face.base.ReadCSV;
-import com.beeboxes.face.base.ReadXml;
-import com.beeboxes.face.base.TestBase;
-import com.beeboxes.face.base.Wait;
 import com.beeboxes.face.page.PageLogin;
 import com.beeboxes.face.page.PageMain;
 import com.beeboxes.face.page.PagePeopleManagement;
+import com.beeboxes.face.util.AssertContent;
+import com.beeboxes.face.util.DotTestListener;
+import com.beeboxes.face.util.OperateConfig;
+import com.beeboxes.face.util.ReadCSV;
+import com.beeboxes.face.util.ReadXml;
+import com.beeboxes.face.util.TestBase;
+import com.beeboxes.face.util.Wait;
 
 /**
  * Description: SaaS平台-人员管理页-用例

@@ -1,4 +1,4 @@
-package com.beeboxes.face.base;
+package com.beeboxes.face.util;
 
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;

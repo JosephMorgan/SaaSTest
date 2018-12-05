@@ -4,8 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
-import com.beeboxes.face.base.JSExecutor;
-import com.beeboxes.face.base.ReadXml;
+import com.beeboxes.face.util.JSExecutor;
+import com.beeboxes.face.util.ReadXml;
 
 /**
  * Description: SaaS平台-主页-元素

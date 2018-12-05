@@ -1,4 +1,4 @@
-package com.beeboxes.face.base;
+package com.beeboxes.face.util;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

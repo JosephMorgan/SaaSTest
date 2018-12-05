@@ -1,15 +1,15 @@
 package com.beeboxes.face.login.testcase;
 
+import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import com.beeboxes.face.base.AssertContent;
-import com.beeboxes.face.base.DotTestListener;
-import com.beeboxes.face.base.OperateConfig;
-import com.beeboxes.face.base.TestBase;
-import com.beeboxes.face.base.Wait;
 import com.beeboxes.face.page.PageLogin;
+import com.beeboxes.face.util.DotTestListener;
+import com.beeboxes.face.util.OperateConfig;
+import com.beeboxes.face.util.TestBase;
+import com.beeboxes.face.util.Wait;
 
 /**
  * Description: SaaS平台-登录页-用例
@@ -24,6 +24,7 @@ public class TestLogin extends TestBase{
 	public void testLogin() {	
 		String username = new OperateConfig().getProp("登录账号");
 		String password = new OperateConfig().getProp("登录密码");
+		String mainWindowTitle = new OperateConfig().getProp("首页窗口标题");
 		PageLogin loginPage = new PageLogin(driver);
 		
 		Reporter.log("步骤1：输入正确用户名");
@@ -35,6 +36,6 @@ public class TestLogin extends TestBase{
 		Reporter.log("步骤4：点登录平台");
 		loginPage.clickLoginBtn();
 		Wait.sleep(2000);
-		AssertContent.assertByTitle(driver, "蜂盒云平台2.0", "登录失败");
+		Assert.assertEquals(driver.getTitle(), mainWindowTitle);
 	}
 }

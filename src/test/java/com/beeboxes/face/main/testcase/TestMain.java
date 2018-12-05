@@ -9,11 +9,11 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-import com.beeboxes.face.base.InitializeSelenium;
-import com.beeboxes.face.base.OperateConfig;
-import com.beeboxes.face.base.Wait;
 import com.beeboxes.face.page.PageLogin;
 import com.beeboxes.face.page.PageMain;
+import com.beeboxes.face.util.InitializeSelenium;
+import com.beeboxes.face.util.OperateConfig;
+import com.beeboxes.face.util.Wait;
 
 /**
  * Description: SaaS平台-主页-用例

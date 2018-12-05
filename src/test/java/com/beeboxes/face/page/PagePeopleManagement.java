@@ -7,7 +7,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 //import com.beeboxes.face.base.JSExecutor;
-import com.beeboxes.face.base.ReadXml;
+
+import com.beeboxes.face.util.ReadXml;
 
 /**
  * Description: SaaS平台-人员管理页-元素
