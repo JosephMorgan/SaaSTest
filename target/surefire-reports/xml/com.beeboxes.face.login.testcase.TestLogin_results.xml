@@ -4,9 +4,9 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="3.001">
+           time="3.205">
   <properties />
-            <testcase name="testLogin" time="3.001" classname="com.beeboxes.face.login.testcase.TestLogin">
+            <testcase name="testLogin" time="3.205" classname="com.beeboxes.face.login.testcase.TestLogin">
                 <failure type="java.lang.AssertionError"
                   message="expected [蜂盒云平台3.0] but found [蜂盒云平台2.0]"
               >

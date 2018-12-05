@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="44.362" tests="7" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="54.539" tests="7" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="D:\Program Files\Java\jdk1.8.0_25\jre\bin"/>
     <property name="java.vm.version" value="25.25-b02"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\Program Files\eclipse\workspace\SaaSTest"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:/Program Files/eclipse/workspace/SaaSTest"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="path.separator" value=";"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -26,22 +26,22 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 7"/>
-    <property name="classworlds.conf" value="D:\apache-maven-3.5.0\bin\..\bin\m2.conf"/>
+    <property name="classworlds.conf" value="D:/apache-maven-3.5.0/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="D:\Program Files\Java\jdk1.8.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;E:\software\cmder\bin;E:\software\cmder\vendor\conemu-maximus5\ConEmu\Scripts;E:\software\cmder\vendor\conemu-maximus5;E:\software\cmder\vendor\conemu-maximus5\ConEmu;D:\curl7620\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Program Files\Java\jdk1.8.0_25\bin;D:\Python27;D:\Python27\Scripts;D:\SVN\TortoiseSVN\bin;D:\Tesseract-OCR;D:\Program Files\VisualSVN Server\bin;C:\Program Files\nodejs\;D:\android-sdk-windows\platform-tools;D:\android-sdk-windows\tools;C:\Program Files (x86)\Appium\node_modules\.bin\;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;D:\apache-ant-1.9.6\bin;D:\apache-maven-3.5.0\bin;D:\Git\cmd;D:\JMeter\apache-jmeter-3.1\bin;D:\android-sdk-windows\platform-tools;E:\software\cmder;D:\scala-2.12.1\bin;C:\Users\bin\AppData\Roaming\npm;C:\Users\bin\AppData\Local\Programs\Fiddler;D:\Git\mingw64;D:\Git\usr\bin;."/>
-    <property name="maven.conf" value="D:\apache-maven-3.5.0\bin\../conf"/>
+    <property name="java.library.path" value="D:\Program Files\Java\jdk1.8.0_25\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\bin\bin;D:\Git\mingw64\bin;D:\Git\usr\local\bin;D:\Git\usr\bin;D:\Git\usr\bin;D:\Git\mingw64\bin;D:\Git\usr\bin;C:\Users\bin\bin;D:\curl7620\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Program Files\Java\jdk1.8.0_25\bin;D:\Python27;D:\Python27\Scripts;D:\SVN\TortoiseSVN\bin;D:\Tesseract-OCR;D:\Program Files\VisualSVN Server\bin;C:\Program Files\nodejs;D:\android-sdk-windows\platform-tools;D:\android-sdk-windows\tools;C:\Program Files (x86)\Appium\node_modules\.bin;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;D:\apache-ant-1.9.6\bin;D:\apache-maven-3.5.0\bin;D:\Git\cmd;D:\JMeter\apache-jmeter-3.1\bin;D:\android-sdk-windows\platform-tools;E:\software\cmder;D:\scala-2.12.1\bin;C:\Users\bin\AppData\Roaming\npm;C:\Users\bin\AppData\Local\Programs\Fiddler;D:\Git\usr\bin\vendor_perl;D:\Git\usr\bin\core_perl;."/>
+    <property name="maven.conf" value="D:/apache-maven-3.5.0/conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="6.1"/>
-    <property name="library.jansi.path" value="D:\apache-maven-3.5.0\bin\..\lib\jansi-native\windows64"/>
+    <property name="library.jansi.path" value="D:\apache-maven-3.5.0\lib\jansi-native\windows64"/>
     <property name="user.home" value="C:\Users\bin"/>
     <property name="user.timezone" value="Asia/Shanghai"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="GBK"/>
     <property name="user.name" value="bin"/>
-    <property name="java.class.path" value="D:\apache-maven-3.5.0\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.class.path" value="D:/apache-maven-3.5.0/boot/plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="D:\Program Files\Java\jdk1.8.0_25\jre"/>
@@ -53,43 +53,41 @@
     <property name="java.version" value="1.8.0_25"/>
     <property name="java.ext.dirs" value="D:\Program Files\Java\jdk1.8.0_25\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="D:\Program Files\Java\jdk1.8.0_25\jre\lib\resources.jar;D:\Program Files\Java\jdk1.8.0_25\jre\lib\rt.jar;D:\Program Files\Java\jdk1.8.0_25\jre\lib\sunrsasign.jar;D:\Program Files\Java\jdk1.8.0_25\jre\lib\jsse.jar;D:\Program Files\Java\jdk1.8.0_25\jre\lib\jce.jar;D:\Program Files\Java\jdk1.8.0_25\jre\lib\charsets.jar;D:\Program Files\Java\jdk1.8.0_25\jre\lib\jfr.jar;D:\Program Files\Java\jdk1.8.0_25\jre\classes"/>
-    <property name="sun.stderr.encoding" value="ms936"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="maven.home" value="D:\apache-maven-3.5.0\bin\.."/>
+    <property name="maven.home" value="D:\apache-maven-3.5.0"/>
     <property name="file.separator" value="\"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="sun.stdout.encoding" value="ms936"/>
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="testSaasVersion" classname="com.beeboxes.face.version.testcase.TestSaasVersion" time="0.447">
+  <testcase name="testSaasVersion" classname="com.beeboxes.face.version.testcase.TestSaasVersion" time="0.747">
     <failure message="expected [BFRS-2.0.65.111&#10;] but found [BFRS-2.0.60.111&#10;]" type="java.lang.AssertionError">java.lang.AssertionError: 
 expected [BFRS-2.0.65.111
 ] but found [BFRS-2.0.60.111
 ]
 	at com.beeboxes.face.version.testcase.TestSaasVersion.testSaasVersion(TestSaasVersion.java:43)
 </failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5) on port 26982
+    <system-err><![CDATA[Starting ChromeDriver 2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5) on port 19706
 Only local connections are allowed.
-十二月 05, 2018 5:54:09 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+十二月 05, 2018 9:01:59 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
 信息: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="testLogin" classname="com.beeboxes.face.login.testcase.TestLogin" time="3.404">
+  <testcase name="testLogin" classname="com.beeboxes.face.login.testcase.TestLogin" time="3.386">
     <failure message="expected [蜂盒云平台3.0] but found [蜂盒云平台2.0]" type="java.lang.AssertionError">java.lang.AssertionError: expected [蜂盒云平台3.0] but found [蜂盒云平台2.0]
 	at com.beeboxes.face.login.testcase.TestLogin.testLogin(TestLogin.java:39)
 </failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5) on port 13725
+    <system-err><![CDATA[Starting ChromeDriver 2.42.591088 (7b2b2dca23cca0862f674758c9a3933e685c27d5) on port 21017
 Only local connections are allowed.
-十二月 05, 2018 5:54:15 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
+十二月 05, 2018 9:02:05 下午 org.openqa.selenium.remote.ProtocolHandshake createSession
 信息: Detected dialect: OSS
 ]]></system-err>
   </testcase>
-  <testcase name="testLogin" classname="com.beeboxes.face.people.testcase.TestPeopleManagement" time="2.927"/>
-  <testcase name="getPeopleManagement" classname="com.beeboxes.face.people.testcase.TestPeopleManagement" time="2.21"/>
-  <testcase name="testLogin" classname="com.beeboxes.face.device.testcase.TestDeviceManagement" time="2.929"/>
-  <testcase name="getDeviceManagement" classname="com.beeboxes.face.device.testcase.TestDeviceManagement" time="5.172"/>
-  <testcase name="testActivationCode" classname="com.beeboxes.face.device.testcase.TestDeviceManagement" time="2.21"/>
+  <testcase name="testLogin" classname="com.beeboxes.face.people.testcase.TestPeopleManagement" time="7.958"/>
+  <testcase name="getPeopleManagement" classname="com.beeboxes.face.people.testcase.TestPeopleManagement" time="2.223"/>
+  <testcase name="testLogin" classname="com.beeboxes.face.device.testcase.TestDeviceManagement" time="2.867"/>
+  <testcase name="getDeviceManagement" classname="com.beeboxes.face.device.testcase.TestDeviceManagement" time="5.18"/>
+  <testcase name="testActivationCode" classname="com.beeboxes.face.device.testcase.TestDeviceManagement" time="2.2"/>
 </testsuite>
