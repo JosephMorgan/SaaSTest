@@ -89,7 +89,43 @@
 			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[1]/div/div/ul/li[8]/ul/a/li]]></xpath>
 		</element>
 	</activity>
+	<activity name="首页页面">
+		<element name="设备预警">
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[2]/div[2]/div/div[1]/div[2]/a/div/div/ul/li[2]/p[1]]]></xpath>
+		</element>
+		<element name="访客系统">
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[2]/div[2]/div/div[2]/div[2]/div/div[2]/div]]></xpath>
+		</element>
+	</activity>
+	<activity name="预警中心页面">
+		<element name="搜索按钮">
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[2]/div[2]/div/div/div/div[2]/div/div/div[1]/form/div[4]/div/button]]></xpath>
+		</element>
+	</activity>
+	<activity name="操作日志页面">
+		<element name="搜索按钮">
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[2]/div[2]/div/div/div[1]/form/div[3]/div/button]]></xpath>
+		</element>
+	</activity>
 	<activity name="人员管理页面">
+		<element name="搜索按钮">
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[2]/div[2]/div/div/div[1]/form/div[4]/div/button]]></xpath>
+		</element>
+		<element name="新增人员按钮">
+			<xpath><![CDATA[/html/body/div[1]/div[1]/div/div/div[2]/div[2]/div/div/div[3]/button[1]]]></xpath>
+		</element>
+		<element name="单个添加人员姓名">
+			<xpath><![CDATA[/html/body/div[1]/div[1]/div/div/div[2]/div[2]/div/div/div[4]/div/div[2]/form/div[1]/div/div/input]]></xpath>
+		</element>
+		<element name="单个添加人员编号">
+			<xpath><![CDATA[/html/body/div[1]/div[1]/div/div/div[2]/div[2]/div/div/div[4]/div/div[2]/form/div[2]/div/div/input]]></xpath>
+		</element>
+		<element name="单个添加人员照片">
+			<xpath><![CDATA[/html/body/div[1]/div[1]/div/div/div[2]/div[2]/div/div/div[4]/div/div[2]/form/div[3]/div/div[1]/div/input]]></xpath>
+		</element>
+		<element name="单个添加人员确定">
+			<xpath><![CDATA[/html/body/div[1]/div[1]/div/div/div[2]/div[2]/div/div/div[4]/div/div[3]/div/button[2]]]></xpath>
+		</element>
 		<element name="批量导入按钮">
 			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[2]/div[2]/div/div/div[3]/button[5]]]></xpath>
 		</element>
@@ -116,8 +152,26 @@
 		</element>
 	</activity>
 	<activity name="设备管理页面">
+		<element name="设备名称搜索框">
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[2]/div[2]/div/div/div[1]/form/div[1]/div/div/input]]></xpath>
+		</element>
 		<element name="sn号搜索框">
 			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[2]/div[2]/div/div/div[1]/form/div[2]/div/div/input]]></xpath>
+		</element>
+		<element name="设备类型下拉框">
+			<xpath><![CDATA[/html/body/div[1]/div[1]/div/div/div[2]/div[2]/div/div/div[1]/form/div[3]/div/div/div/input]]></xpath>
+		</element>
+		<element name="设备类型单屏">
+			<xpath><![CDATA[/html/body/div[2]/div[1]/div[1]/ul/li[1]]]></xpath>
+		</element>
+		<element name="设备类型门禁">
+			<xpath><![CDATA[/html/body/div[2]/div[1]/div[1]/ul/li[2]]]></xpath>
+		</element>
+		<element name="设备类型闸机">
+			<xpath><![CDATA[/html/body/div[2]/div[1]/div[1]/ul/li[3]]]></xpath>
+		</element>
+		<element name="设备类型桌面终端">
+			<xpath><![CDATA[/html/body/div[2]/div[1]/div[1]/ul/li[4]]]></xpath>
 		</element>
 		<element name="搜索按钮">
 			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[2]/div[2]/div/div/div[1]/form/div[7]/div/button]]></xpath>
@@ -133,6 +187,153 @@
 		</element>
 		<element name="第一个勾选框">
 			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[2]/div[2]/div/div/div[5]/div/div[3]/table/tbody/tr/td[1]/div/label/span/span]]></xpath>
+		</element>
+		<element name="搜索结果的sn">
+			<xpath><![CDATA[/html/body/div[1]/div[1]/div/div/div[2]/div[2]/div/div/div[5]/div/div[3]/table/tbody/tr/td[3]/div]]></xpath>
+		</element>
+		<element name="搜索结果的设备名称">
+			<xpath><![CDATA[/html/body/div[1]/div[1]/div/div/div[2]/div[2]/div/div/div[5]/div/div[3]/table/tbody/tr/td[2]/div]]></xpath>
+		</element>
+	</activity>
+	<activity name="设备分组页面">
+		<element name="搜索按钮">
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[2]/div[2]/div/div/div[1]/form/div[2]/div/button]]></xpath>
+		</element>
+	</activity>
+	<activity name="管理员页面">
+	    <element name="管理员姓名搜索框">
+			<xpath><![CDATA[/html/body/div[1]/div[1]/div/div/div[2]/div[2]/div/div/div[1]/form/div[1]/div/div/input]]></xpath>
+		</element>
+		<element name="管理员搜索结果姓名">
+			<xpath><![CDATA[/html/body/div[1]/div[1]/div/div/div[2]/div[2]/div/div/div[4]/div/div[3]/table/tbody/tr[1]/td[2]/div]]></xpath>
+		</element>
+		<element name="搜索按钮">
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[2]/div[2]/div/div/div[1]/form/div[3]/div/button]]></xpath>
+		</element>
+		<element name="新增管理员按钮">
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[2]/div[2]/div/div/div[3]/button]]></xpath>
+		</element>
+		<element name="管理员姓名">
+			<xpath><![CDATA[/html/body/div[1]/div[1]/div/div/div[2]/div[2]/div/div/div[4]/div/div[2]/div/form/div[1]/div/div/input]]></xpath>
+		</element>
+		<element name="管理员密码">
+			<xpath><![CDATA[/html/body/div[1]/div[1]/div/div/div[2]/div[2]/div/div/div[4]/div/div[2]/div/form/div[2]/div/div/input]]></xpath>
+		</element>
+		<element name="管理员照片">
+			<xpath><![CDATA[/html/body/div[1]/div[1]/div/div/div[2]/div[2]/div/div/div[4]/div/div[2]/div/form/div[4]/div/div[1]/div/input]]></xpath>
+		</element>
+		<element name="管理员确定">
+			<xpath><![CDATA[/html/body/div[1]/div[1]/div/div/div[2]/div[2]/div/div/div[4]/div/div[3]/div/button[2]]]></xpath>
+		</element>
+	</activity>
+	<activity name="配置管理页面">
+		<element name="选择设备并同步按钮">
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[2]/div[2]/div/div/button]]></xpath>
+		</element>
+	</activity>
+	<activity name="命令下发记录页面">
+		<element name="搜索按钮">
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[2]/div[2]/div/div/div[1]/form/div[4]/div/button]]></xpath>
+		</element>
+	</activity>
+	<activity name="角色管理页面">
+		<element name="新增角色按钮">
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[2]/div[2]/div/div/button]]></xpath>
+		</element>
+	</activity>
+	<activity name="权限分配页面">
+		<element name="搜索按钮">
+			<xpath><![CDATA[/html/body/div/div[1]/div/div/div[2]/div[2]/div/div/div[1]/form/div[4]/div/button]]></xpath>
+		</element>
+	</activity>
+	<activity name="通行记录页面">
+		<element name="搜索按钮">
+			<xpath><![CDATA[/html/body/div[1]/div[1]/div/div/div[2]/div[2]/div/div/div[1]/form/div[7]/div/button]]></xpath>
+		</element>
+	</activity>
+	<activity name="通行规则页面">
+		<element name="新增通行规则按钮">
+			<xpath><![CDATA[/html/body/div[1]/div[1]/div/div/div[2]/div[2]/div/div/div[1]/button]]></xpath>
+		</element>
+		<element name="规则名称">
+			<xpath><![CDATA[/html/body/div[1]/div[1]/div/div/div[2]/div[2]/div/div/div[1]/div/div/div[2]/form/div[1]/div/div/input]]></xpath>
+		</element>
+		<element name="通行方式人脸">
+			<xpath><![CDATA[/html/body/div[1]/div[1]/div/div/div[2]/div[2]/div/div/div[1]/div/div/div[2]/form/div[3]/div/div/label[1]/span[1]/span]]></xpath>
+		</element>
+		<element name="时间规则按钮">
+			<xpath><![CDATA[/html/body/div[1]/div[1]/div/div/div[2]/div[2]/div/div/div[1]/div/div/div[2]/form/div[4]/div/button]]></xpath>
+		</element>
+		<element name="时间规则名称">
+			<xpath><![CDATA[/html/body/div[3]/div/div[2]/form/div[1]/div/div/input]]></xpath>
+		</element>
+		<element name="时间规则日期长期">
+			<xpath><![CDATA[/html/body/div[3]/div/div[2]/form/div[2]/div/div[1]/label[1]/span[1]/span]]></xpath>
+		</element>
+		<element name="时间规则星期一">
+			<xpath><![CDATA[/html/body/div[3]/div/div[2]/form/div[3]/div/div/label[1]/span[1]/span]]></xpath>
+		</element>
+		<element name="时间规则开始时间">
+			<xpath><![CDATA[/html/body/div[3]/div/div[2]/form/div[4]/div/div/input[1]]]></xpath>
+		</element>
+		<element name="时间规则结束时间">
+			<xpath><![CDATA[/html/body/div[3]/div/div[2]/form/div[4]/div/div/input[2]]]></xpath>
+		</element>
+		<element name="时间规则时间控件确定">
+			<xpath><![CDATA[/html/body/div[4]/div[2]/button[2]]]></xpath>
+		</element>
+		<element name="时间规则通行方式下拉框">
+			<xpath><![CDATA[/html/body/div[3]/div/div[2]/form/div[5]/div/div]]></xpath>
+		</element>
+		<element name="时间规则通行方式允许通行">
+			<xpath><![CDATA[/html/body/div[5]/div[1]/div[1]/ul/li[1]]]></xpath>
+		</element>
+		<element name="时间规则确定按钮">
+			<xpath><![CDATA[/html/body/div[3]/div/div[3]/div/button[2]/span]]></xpath>
+		</element>
+		<element name="通行规则下发方式下拉框">
+			<xpath><![CDATA[/html/body/div[1]/div[1]/div/div/div[2]/div[2]/div/div/div[1]/div/div/div[2]/form/div[5]/div/div/div]]></xpath>
+		</element>
+		<element name="通行规则下发方式组织下发">
+			<xpath><![CDATA[/html/body/div[3]/div[1]/div[1]/ul/li[2]]]></xpath>
+		</element>
+		<element name="所有组织">
+			<xpath><![CDATA[/html/body/div[1]/div[1]/div/div/div[2]/div[2]/div/div/div[1]/div/div/div[2]/form/div[5]/div/div[2]/div[1]/div/p/label/span[1]/span]]></xpath>
+		</element>
+		<element name="选择组织右移">
+			<xpath><![CDATA[/html/body/div[1]/div[1]/div/div/div[2]/div[2]/div/div/div[1]/div/div/div[2]/form/div[5]/div/div[2]/div[3]/button[2]]]></xpath>
+		</element>
+		<element name="通行规则确定">
+			<xpath><![CDATA[/html/body/div[1]/div[1]/div/div/div[2]/div[2]/div/div/div[1]/div/div/div[3]/div/button[2]]]></xpath>
+		</element>
+	</activity>
+	<activity name="规则下发页面">
+		<element name="同步设备标签">
+			<xpath><![CDATA[/html/body/div[1]/div[1]/div/div/div[2]/div[2]/div/div/div[1]/div/div[2]/table/thead/tr/th[2]/div]]></xpath>
+		</element>
+	</activity>
+	<activity name="微信授权页面">
+		<element name="去授权按钮">
+			<xpath><![CDATA[/html/body/div[1]/div[1]/div/div/div[2]/div[2]/div/div/div[2]/div/form/button]]></xpath>
+		</element>
+	</activity>
+	<activity name="组织架构页面">
+		<element name="新增按钮">
+			<xpath><![CDATA[/html/body/div[1]/div[1]/div/div/div[2]/div[2]/div/div/div/div[1]/div/div[1]/button[1]]]></xpath>
+		</element>
+		<element name="新增组织的名称">
+			<xpath><![CDATA[/html/body/div[1]/div[1]/div/div/div[2]/div[2]/div/div/div/div[1]/div/div[3]/div/div[2]/form/div[2]/div/div/input]]></xpath>
+		</element>
+		<element name="新增组织的确定">
+			<xpath><![CDATA[/html/body/div[1]/div[1]/div/div/div[2]/div[2]/div/div/div/div[1]/div/div[3]/div/div[3]/div/button[2]]]></xpath>
+		</element>
+	</activity>
+	<activity name="访客系统主页面">
+		<element name="访客管理系统标题">
+			<xpath><![CDATA[/html/body/div/header/div[1]/div[2]]]></xpath>
+		</element>
+		<element name="访客管理系统frame框架">
+			<xpath><![CDATA[/html/body/div/div[2]/iframe]]></xpath>
 		</element>
 	</activity>
 </root>

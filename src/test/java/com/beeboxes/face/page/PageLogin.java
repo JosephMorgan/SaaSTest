@@ -2,8 +2,8 @@ package com.beeboxes.face.page;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.PageFactory;
 
+import com.beeboxes.face.util.PageBase;
 import com.beeboxes.face.util.ReadXml;
 
 /**
@@ -13,24 +13,12 @@ import com.beeboxes.face.util.ReadXml;
  * @date 2018年11月14日
  * @time 下午11:01:43
  */
-public class PageLogin {
-	public WebDriver driver;
-	// 定义构造函数，函数参数赋值给类成员变量driver，初始化PageFactory
+public class PageLogin extends PageBase {
+
 	public PageLogin(WebDriver driver) {
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
+		super(driver);
 	}
-	public String getPageSource() {
-		return driver.getPageSource();
-	}
-	public void close() {
-		this.driver.close();
-	}
-	protected void load() {	
-	}	
-	public WebDriver getDriver() {
-		return driver;
-	}
+
 	By userName = By.name(ReadXml.getElementByName("登录页面", "登录账号"));
 	By password1 = By.name(ReadXml.getElementByName("登录页面","账号密码"));
 	By rememberAccount = By.xpath(ReadXml.getElementByXpath("登录页面", "记住账号和密码"));

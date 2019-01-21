@@ -5,11 +5,9 @@ import java.util.concurrent.TimeUnit;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.alibaba.fastjson.JSONObject;
-import com.beeboxes.face.util.DotTestListener;
 import com.beeboxes.face.util.InitializeSelenium;
 import com.beeboxes.face.util.OperateConfig;
 import com.beeboxes.face.util.TestBase;
@@ -20,7 +18,6 @@ import com.beeboxes.face.util.TestBase;
  * @date 2018年12月3日
  * @time 下午2:52:31
  */
-@Listeners({ DotTestListener.class })
 public class TestSaasVersion extends TestBase {	
 	@Override
 	@BeforeClass
@@ -39,7 +36,7 @@ public class TestSaasVersion extends TestBase {
 		String strJson = html.substring(strHead.length(), html.length()-strLast.length());
 		JSONObject jsonObj = JSONObject.parseObject(strJson);
 		String saasVersion = jsonObj.getString("saas_version");
-		Reporter.log("SaaS的版本："+saasVersion);
+		Reporter.log("SaaS的实际版本："+saasVersion);
 		Assert.assertEquals(saasVersion, expextedSaasVersion); 
 	}
 

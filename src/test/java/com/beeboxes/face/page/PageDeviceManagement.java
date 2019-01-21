@@ -21,21 +21,28 @@ public class PageDeviceManagement extends  PageBase{
 		super(driver);
 	}
 	
+	By searchDeviceNameEdit = By.xpath(ReadXml.getElementByXpath("设备管理页面", "设备名称搜索框"));
 	By searchSnEdit = By.xpath(ReadXml.getElementByXpath("设备管理页面", "sn号搜索框"));
 	By searchBtn = By.xpath(ReadXml.getElementByXpath("设备管理页面", "搜索按钮"));
 	By firstCheckBox = By.xpath(ReadXml.getElementByXpath("设备管理页面", "第一个勾选框"));
 	By rebootDeviceBtn = By.xpath(ReadXml.getElementByXpath("设备管理页面", "重启按钮"));
 	By activationCodeBtn = By.xpath(ReadXml.getElementByXpath("设备管理页面", "设备激活码按钮"));
 	
-	/** 设备管理页-点搜索按钮 */
-	public void clickSearchBtn() {
-		new WebDriverWait(driver,60,1).until(ExpectedConditions.visibilityOfElementLocated(searchBtn)).click();
+	/**设备管理页-输入设备名称 */
+	public void inputDeviceName(String deviceName) {
+		new WebDriverWait(driver, 60,1).until(ExpectedConditions.visibilityOfElementLocated(searchDeviceNameEdit)).sendKeys(Keys.CONTROL + "a");
+		new WebDriverWait(driver, 60,1).until(ExpectedConditions.visibilityOfElementLocated(searchDeviceNameEdit)).sendKeys(deviceName);
 	}
 	
 	/**设备管理页-输入sn */
 	public void inputSn(String sn) {
 		new WebDriverWait(driver, 60,1).until(ExpectedConditions.visibilityOfElementLocated(searchSnEdit)).sendKeys(Keys.CONTROL + "a");
 		new WebDriverWait(driver, 60,1).until(ExpectedConditions.visibilityOfElementLocated(searchSnEdit)).sendKeys(sn);
+	}
+	
+	/** 设备管理页-点搜索按钮 */
+	public void clickSearchBtn() {
+		new WebDriverWait(driver,60,1).until(ExpectedConditions.visibilityOfElementLocated(searchBtn)).click();
 	}
 	
 	/** 设备管理页-点设备列表搜索结果的第一个勾选框*/

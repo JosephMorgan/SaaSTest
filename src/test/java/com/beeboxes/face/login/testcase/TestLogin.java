@@ -2,11 +2,9 @@ package com.beeboxes.face.login.testcase;
 
 import org.testng.Assert;
 import org.testng.Reporter;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.beeboxes.face.page.PageLogin;
-import com.beeboxes.face.util.DotTestListener;
 import com.beeboxes.face.util.OperateConfig;
 import com.beeboxes.face.util.TestBase;
 import com.beeboxes.face.util.Wait;
@@ -17,7 +15,7 @@ import com.beeboxes.face.util.Wait;
  * @date 2018年11月13日
  * @time 下午2:58:14
  */
-@Listeners({ DotTestListener.class })
+//@Listeners({ DotTestListener.class })
 public class TestLogin extends TestBase{
 
 	@Test(description="用正确账号登录")

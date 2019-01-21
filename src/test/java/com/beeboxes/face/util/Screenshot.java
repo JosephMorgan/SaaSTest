@@ -31,6 +31,9 @@ public class Screenshot {
 		 String time = dateFormat.format(Calendar.getInstance().getTime());  //获取当前时间
 	     File srcFile = drivername.getScreenshotAs(OutputType.FILE);
 		  try {
+			File dir = new File("snapshot");
+			if (!dir.exists())
+				dir.mkdirs();
 			FileUtils.copyFile(srcFile, new File("snapshot",fileName+time+".png"));
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -43,6 +46,9 @@ public class Screenshot {
 		 String time = dateFormat.format(Calendar.getInstance().getTime());  //获取当前时间
 	     File srcFile = drivername.getScreenshotAs(OutputType.FILE);
 		  try {
+			File dir = new File("snapshot");
+			if (!dir.exists())
+				dir.mkdirs();
 			FileUtils.copyFile(srcFile, new File("snapshot","failure"+time+".png"));
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -56,6 +62,9 @@ public class Screenshot {
 		String time = dateFormat.format(Calendar.getInstance().getTime());  //获取当前时间
 		BufferedImage image;
 		try {
+			File dir = new File("snapshot");
+			if (!dir.exists())
+				dir.mkdirs();
 			image = new Robot().createScreenCapture(new Rectangle(Toolkit.getDefaultToolkit().getScreenSize()));
 			ImageIO.write(image, "png", new File("snapshot","failure"+time+".png")); 
 		} catch (HeadlessException | AWTException e) {

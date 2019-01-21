@@ -19,8 +19,8 @@ public class DotTestListener extends TestListenerAdapter {
 		try {
 			//TestBase tb = (TestBase) tr.getInstance();
 			//WebDriver driver = tb.getDriver();
-			 SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy年MM月dd日 HH时mm分ss秒");  //转换时间格式
-			 String time = dateFormat.format(Calendar.getInstance().getTime());  //获取当前时间
+			SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy年MM月dd日 HH时mm分ss秒");  //转换时间格式
+			String time = dateFormat.format(Calendar.getInstance().getTime());  //获取当前时间
 			Reporter.log("出错时间："+time);
 			//Screenshot.snapshot((TakesScreenshot)driver);
 			Screenshot.captureScreen();

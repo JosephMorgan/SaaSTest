@@ -44,12 +44,16 @@ public class ReadCSV {
 		return csvList;
 }
 	public static void main(String[] args) {
-		String filePath = "C:/Users/Administrator/Desktop/PeopleTemplate.csv";
+		//String filePath = "E:/DB/eclipse/workspace/SaaSTest/config/PeopleTemplate.csv";
+		String filePath = "C:/PicPath.csv";
 		
 		ArrayList<String[]> dataArrayList = ReadCSV.readCSVFile(filePath);
+//		for(int row = 0 ; row < dataArrayList.size();row++) {
+//			System.out.println(dataArrayList.get(row)[0]);
+//			System.out.println(dataArrayList.get(row)[1]);
+//		}
 		for(int row = 0 ; row < dataArrayList.size();row++) {
 			System.out.println(dataArrayList.get(row)[0]);
-			System.out.println(dataArrayList.get(row)[1]);
 		}
 		
 	}

@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="蜂盒科技SaaS平台自动化测试">
-	<test name="SaaS的版本" preserve-order="true">
+<!-- 	<test name="SaaS的版本" preserve-order="true">
 		<classes>
 			<class name="com.beeboxes.face.version.testcase.TestSaasVersion">
 				<methods>
@@ -20,30 +20,89 @@
 			</class>
 		</classes>
 	</test>
+	<test name="SaaS主页" preserve-order="true">
+		<classes>
+			<class name="com.beeboxes.face.main.testcase.TestMain">
+				<methods>
+					<include name="testLogin" />
+					<include name="tesLeftColumn" />
+				</methods>
+			</class>
+		</classes>
+	</test> -->
 	<test name="SaaS人员管理页" preserve-order="true">
 		<classes>
 			<class name="com.beeboxes.face.people.testcase.TestPeopleManagement">
 				<methods>
 					<include name="testLogin" />
 					<include name="getPeopleManagement" />
+	<!-- 				<include name="testSingleAddPeople" /> -->
+					<include name="batchAddingStaff" />
 				</methods>
 			</class>
 		</classes>
 	</test>
-	<test name="SaaS设备管理页" preserve-order="true">
+	<!-- <test name="SaaS设备管理页" preserve-order="true">
 		<classes>
 			<class name="com.beeboxes.face.device.testcase.TestDeviceManagement">
 				<methods>
 					<include name="testLogin" />
 					<include name="getDeviceManagement" />
-					<include name="testActivationCode" />
+					<include name="testDeviceSearchBySN" />
 				</methods>
 			</class>
 		</classes>
 	</test>
+	<test name="SaaS管理员页" preserve-order="true">
+		<classes>
+			<class name="com.beeboxes.face.administrator.testcase.TestAdministrator">
+				<methods>
+					<include name="testLogin" />
+					<include name="getAdministrator" />
+					<include name="testAddAdministrator" />
+					<include name="testSearchAdministrator" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="SaaS通行规则页" preserve-order="true">
+		<classes>
+			<class name="com.beeboxes.face.throughrule.testcase.TestThroughRule">
+				<methods>
+					<include name="testLogin" />
+					<include name="getThroughRule" />
+					<include name="testAddThroughRule" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="SaaS组织架构页" preserve-order="true">
+		<classes>
+			<class
+				name="com.beeboxes.face.organizationstructure.testcase.TestOrganizationStructure">
+				<methods>
+					<include name="testLogin" />
+					<include name="getOrganizationStructure" />
+					<include name="testAddGroup" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="SaaS首页看访客系统" preserve-order="true">
+		<classes>
+			<class name="com.beeboxes.face.index.testcase.TestIndex">
+				<methods>
+					<include name="testLogin" />
+					<include name="getIndex" />
+					<include name="getGuestSystem" />
+				</methods>
+			</class>
+		</classes>
+	</test> -->
 
 	<listeners>
 		<listener class-name="org.uncommons.reportng.HTMLReporter" />
 		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="com.beeboxes.face.util.DotTestListener" />
 	</listeners>
 </suite>

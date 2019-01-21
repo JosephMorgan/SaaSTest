@@ -1,21 +1,31 @@
-D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\util\ReadXml.java
-D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\people\testcase\TestPeopleManagement.java
-D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\util\AssertContent.java
-D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\util\WindowSwitch.java
-D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\page\PageDeviceManagement.java
-D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\version\testcase\TestSaasVersion.java
-D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\util\DotTestListener.java
-D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\util\Screenshot.java
-D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\util\PageBase.java
-D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\util\JSExecutor.java
-D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\util\OperateConfig.java
-D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\util\Wait.java
-D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\util\ReadCSV.java
-D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\page\PagePeopleManagement.java
-D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\page\PageMain.java
-D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\main\testcase\TestMain.java
-D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\login\testcase\TestLogin.java
-D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\page\PageLogin.java
-D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\util\TestBase.java
-D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\device\testcase\TestDeviceManagement.java
-D:\Program Files\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\util\InitializeSelenium.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\index\testcase\TestIndex.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\page\PagePeopleManagement.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\version\testcase\TestSaasVersion.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\device\testcase\TestDeviceManagement.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\page\PageLogin.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\util\DotTestListener.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\page\PageMain.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\page\PageOrganizationalStructure.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\throughrule\testcase\TestThroughRule.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\page\PageThroughRule.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\administrator\testcase\TestAdministrator.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\page\PageAdministrator.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\organizationstructure\testcase\TestOrganizationStructure.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\util\Screenshot.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\people\testcase\TestPeopleManagement.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\run\RunMaven.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\util\JSExecutor.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\util\Wait.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\util\TestBase.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\util\PageBase.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\util\AssertContent.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\page\PageConfigManagement.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\util\ReadXml.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\page\PageDeviceManagement.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\util\OperateConfig.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\util\WindowSwitch.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\util\ReadCSV.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\main\testcase\TestMain.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\util\InitializeSelenium.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\page\PageIndex.java
+E:\DB\eclipse\workspace\SaaSTest\src\test\java\com\beeboxes\face\login\testcase\TestLogin.java

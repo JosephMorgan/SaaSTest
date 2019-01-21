@@ -2,9 +2,9 @@ package com.beeboxes.face.page;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.PageFactory;
 
 import com.beeboxes.face.util.JSExecutor;
+import com.beeboxes.face.util.PageBase;
 import com.beeboxes.face.util.ReadXml;
 
 /**
@@ -13,19 +13,12 @@ import com.beeboxes.face.util.ReadXml;
  * @date 2018年11月18日
  * @time 下午10:44:04
  */
-public class PageMain {
-	public WebDriver driver;
-	public PageMain(WebDriver driver) {
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
-	}
-	public String getPageSource() {
-		return driver.getPageSource();
-	}
-	public void close() {
-		this.driver.close();
-	}
+public class PageMain extends PageBase {
 	
+	public PageMain(WebDriver driver) {
+		super(driver);
+	}
+
 	By workbench = By.xpath(ReadXml.getElementByXpath("首页左侧栏", "工作台"));
 	By homePage = By.xpath(ReadXml.getElementByXpath("首页左侧栏", "首页"));
 	By alarmCenter = By.xpath(ReadXml.getElementByXpath("首页左侧栏", "预警中心"));
